@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+              url('https://lh3.googleusercontent.com/p/AF1QipMbX2d5OYu0MhIS3s8bvf83YSgKNaygGRTcdq1g=s1360-w1360-h1020') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.overlay {
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: #8b6f47;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #6f5637;
+}
+
+.btn.small {
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+
+.section {
+  padding: 60px 20px;
+}
+
+.section.alt {
+  background: #f4f1ec;
+}
+
+.schedule {
+  list-style: none;
+  padding: 0;
+}
+
+.schedule li {
+  margin: 12px 0;
+  font-size: 1.1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+input, select {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+footer {
+  padding: 20px;
+  background: #111;
+  color: white;
+}
+
+iframe {
+  max-width: 600px;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+}
